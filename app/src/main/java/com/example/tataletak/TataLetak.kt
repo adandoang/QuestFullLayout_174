@@ -77,6 +77,6 @@ fun DetailMahasiswa(
         horizontalArrangement = Arrangement.SpaceBetween){
         Text(judul, modifier = Modifier.weight(0.8f))
         Text(":", modifier = Modifier.weight(0.2f))
-        Text(isinya, modifier = Modifier.weight(0.8f))
+        Text(isinya, modifier = Modifier.weight(2f))
     }
 }
